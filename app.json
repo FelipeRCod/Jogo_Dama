@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Jogo Dama",
+    "slug": "jogo-dama",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "sdkVersion": "58.0.0",
+    "androidStatusBar": {
+      "hidden": true,
+      "translucent": true
+    },
+    "androidNavigationBar": {
+      "visible": "sticky-immersive",
+      "backgroundColor": "#000000"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-asset",
+      "expo-audio",
+      "expo-status-bar"
+    ]
+  }
+}
